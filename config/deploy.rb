@@ -4,6 +4,8 @@ lock '3.6.0'
 set :application, 'todo'
 set :repo_url, 'git@github.com:mindziukasss/Todo-list.git'
 
+set :passenger_restart_with_touch, true
+
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
